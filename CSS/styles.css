@@ -1,0 +1,123 @@
+body{
+    min-height: 100vh;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 1020px;
+    width: 480px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow-y: scroll;
+}
+header{
+    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 0px;
+}
+.menu{
+    background: #f7f7f7;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-right: 1em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: #3684e4;
+}
+
+main{
+    background: #f7f7f7;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    min-height: 100px;
+    padding-top: 10px;
+}
+.buttons{
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.button{
+    flex: 1;
+    height: 110px;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.pagebodymain{
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+.pagebodymain h2{
+    font-size: 1.5rem;
+    font-weight:500;
+    color:#3E3049;
+    margin-bottom: 20px;
+        
+}
+.fightcovid {
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-bottom: 70px;
+}
+.fightcovid ul{
+    text-align: left;
+}
+.symptoms{
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-bottom: 70px;
+}
+.symptoms ul{
+    text-align: left;
+}
+.prevention{
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-bottom: 70px;
+}
+.prevention ul{
+    text-align: left;
+}
+
+.title{
+    font-weight: bold;
+}
+.location{
+    color: #665E77;
+}
+.beds{
+    color: #fae84a;
+}
+footer{
+    background-color: #665E77;
+    padding: 15px;
+
+}
+    
